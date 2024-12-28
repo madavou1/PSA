@@ -17,17 +17,24 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-
 button {
-    background-color: #007BFF;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    background-color: #ffcb05; /* Couleur vive */
+    color: #2a75bb; /* Texte contrasté */
+    padding: 10px 20px; /* Espace autour du texte */
+    font-size: 18px; /* Taille du texte */
+    font-weight: bold; /* Texte en gras */
+    border: 2px solid #2a75bb; /* Bordure fine */
+    border-radius: 50px; /* Coins arrondis */
+    cursor: pointer; /* Pointeur clic */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Ombre douce */
+    transition: all 0.3s ease; /* Animation fluide */
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #2a75bb; /* Changement de couleur */
+    color: white; /* Texte en blanc */
+    transform: translateY(-3px); /* Légère élévation */
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Ombre plus forte */
 }
+
 
